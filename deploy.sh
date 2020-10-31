@@ -2,6 +2,8 @@
 REPO="https://github.com/two-first-names/miami"
 
 sudo su ec2-user
+cd $HOME
+pwd
 
 if [ ! -d "venv" ]
 then
