@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 REPO="https://github.com/two-first-names/miami"
 
+sudo su ec2-user
+
 if [ ! -d "venv" ]
 then
   python3 -mvenv venv
