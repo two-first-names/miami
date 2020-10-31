@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 REPO="https://github.com/two-first-names/miami"
 
 if [ ! -d "miami" ]
